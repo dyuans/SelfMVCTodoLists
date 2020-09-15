@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta charset 指定了页面编码, 否则中文会乱码 -->
+        <meta charset="utf-8">
+        <!-- title 是浏览器显示的页面标题 -->
+        <title>TODO 编辑</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static?file=todo.css">
+        <link rel="stylesheet" href="/static?file=index.css">
+    </head>
+    <!-- body 中是浏览器要显示的内容 -->
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand mr-auto mr-lg-0" href="/">SelfMVC</a>
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Hi,<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Switch account</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <main role="main" class="container" id="top">
+            <form action="/todo/update" method="post">
+                <div class="input-group">
+                    <input name="id"  value="{id}" placeholder="Todo id" hidden/>
+                    <br>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Edit Todo</span>
+                    </div>
+                    <textarea class="form-control" name="content" aria-label="New Todo">{content}</textarea>
+                    <div class="input-group-append" id="button-addon4">
+                        <button class="btn btn-outline-secondary" type="submit">提交修改</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+
+
+
+
+
+<!--        <form action="/todo/update" method="post">-->
+<!--            <input name="id"  value="{id}" placeholder="Todo id" hidden/>-->
+<!--            <br>-->
+<!--            <input name="content"  value="{content}" placeholder="请输入 TODO"/>-->
+<!--            <br>-->
+<!--            <button type="submit">提交修改</button>-->
+<!--        </form>-->
+    </body>
+</html>

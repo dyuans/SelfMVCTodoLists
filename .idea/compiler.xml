@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="elfMVCTodoLists.main" target="11" />
+      <module name="elfMVCTodoLists.test" target="11" />
+      <module name="guaMVC.main" target="11" />
+      <module name="guaMVC.test" target="11" />
+      <module name="selfMVCTodoLis.main" target="11" />
+      <module name="selfMVCTodoLis.test" target="11" />
+      <module name="selfMVCTodoLists.main" target="11" />
+      <module name="SelfMVCTodoLists.main" target="11" />
+      <module name="SelfMVCTodoLists.test" target="11" />
+      <module name="selfMVCTodoLists.test" target="11" />
+      <module name="ssm.main" target="11" />
+      <module name="ssm.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
